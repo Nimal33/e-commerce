@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+ <style>
+  @import url('https://fonts.googlepis.com/css2?family=poppins&display=swap');
+  h3{
+    margin-top: 1%;
+    padding-bottom: 20px;
+    color: #00008b;
+    padding: 20px;
+  }
+
+  .modal-title{
+    text-align: center;
+    width: 100%;
+  }
+  .modal-footer{
+            display: flex;
+            justify-content: center;
+  }
+  .noproducts{
+    padding-right: 50px;
+  }
+  h3{
+    font-weight: bolder;
+    font-family:' sans-serif';
+  }
+
+
+ </style>
+</head>
+<body id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  fixed-top box shadow-lg  p-3 ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">QuickKart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#brand">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contect">Contect</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-success text-white" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav><br><br><br><br>
+<!--collection-->
+
+<section id="laptops"class="bg bg-secondary"> 
+  <div class="container-fluid">
+     <div class="row">
+          <center>
+              <h3 class="">TOP SELLING LAPTOPS</h3>
+          </center>
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+              <div class="card">
+                  <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-2-in-1-7440-intel/media-gallery/notebook-inspiron-14-7440-t-ice-blue-gallery-10.psd?fmt=pjpg&pscan=auto&scl=1&wid=3924&hei=2565&qlt=100,1&resMode=sharp2&size=3924,2565&chrss=full&imwidth=5000" class="card-img-top"width="200" height="210">
+                 <center>
+                  <div class="card-header">DELL Rs 89,990/-Only</div>
+                 </center>
+                 <div class="card-body text-center">
+                  <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal">View Product</button>
+                 </div>
+                 <!--modal-->
+                 <div class="modal border border-dark" id="myModal" tabindex="-1">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header border border-dark">
+                              <h2 class="modal-title">DELL I7</h2>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                          </div>
+                          <center>
+                              <div class="modal-body border border-dark">
+                                  <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-2-in-1-7440-intel/media-gallery/notebook-inspiron-14-7440-t-ice-blue-gallery-10.psd?fmt=pjpg&pscan=auto&scl=1&wid=3924&hei=2565&qlt=100,1&resMode=sharp2&size=3924,2565&chrss=full&imwidth=5000" height="200" width="200" class="border border-dark">
+                                  <p style="align-items:center;">
+                                      <div class="amount d-flex">
+                                          <h2>Rs 89990/-</h2>
+                                          <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                              <button class="btn btn-danger me-1" id="decrease">-</button>
+                                              <span id="quantity" class="fs-4">1</span>
+                                              <button class="btn btn-danger ms-1" id="increase">+</button>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex">
+                                        <div class="position-relative">
+                                          <div class="text-start">
+                                            <p>Processor:Intel i7 processor</p>
+                                            <p>RAM:8GB TO 32GB Internet: 5G</p>
+                                            <p>Battery Life: 8 to 10 hours </p>
+                                            <p>Screen size:14" FULL HD Screen</p>
+                                          </div>
+                                        </div>
+                                       
+                                      </div>
+                                  </p>
+                              </div>
+                          </center>
+                           <!--selctors-->
+                           <footer class="modal-footer">
+                            <button type="button" class="btn btn-info">ADD TO CART</button>
+                            <button type="button" class="btn btn-success">BUY NOW</button>
+                           </footer>
+                      </div>
+                  </div>
+                 </div>
+
+              </div>
+          </div> 
+          <!--2-->
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/computer/f/z/r/15itl6-thin-and-light-laptop-lenovo-original-imah44ptjjhubfpn.jpeg?q=90&crop=false" class="card-img-top" width="200" height="210">
+               <center>
+                <div class="card-header">LENOVA Rs65,990 0nly</div>
+               </center>
+               <div class="card-body text-center">
+                <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal1">View Product</button>
+               </div>
+               <!--modal-->
+               <div class="modal border border-dark" id="myModal1" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border border-dark">
+                            <h2 class="modal-title"> LENOVA</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <center>
+                            <div class="modal-body border border-dark">
+                                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/computer/f/z/r/15itl6-thin-and-light-laptop-lenovo-original-imah44ptjjhubfpn.jpeg?q=90&crop=false" height="200" width="200" class="border border-dark">
+                                <p style="align-items:center;">
+                                    <div class="amount d-flex">
+                                        <h2>Rs 65,990/-</h2>
+                                        <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                            <button class="btn btn-danger me-1" id="decrease">-</button>
+                                            <span id="quantity" class="fs-4">1</span>
+                                            <button class="btn btn-danger ms-1" id="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                      <div class="position-relative">
+                                        <div class="text-start">
+                                          <p>Processor:Intel i7 processor</p>
+                                          <p>RAM:8GB TO 32GB Internet: 5G</p>
+                                          <p>Battery Life: 8 to 10 hours </p>
+                                          <p>Screen size:14" FULL HD Screen</p>
+                                        </div>
+                                      </div>
+                                     
+                                    </div>
+                                </p>
+                            </div>
+                        </center>
+                         <!--selctors-->
+                         <footer class="modal-footer">
+                          <button type="button" class="btn btn-info">ADD TO CART</button>
+                          <button type="button" class="btn btn-success">BUY NOW</button>
+                         </footer>
+                    </div>
+                </div>
+              </div> 
+      </div>
+  </div>
+  <!--3-->
+  <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+    <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/EY/FA/ED/44069440/apple-a1708-refurbished-laptop.jpg" class="card-img-top" width="200" height="210">
+       <center>
+        <div class="card-header">MAC Rs1,30,000 0nly</div>
+       </center>
+       <div class="card-body text-center">
+        <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal2">View Product</button>
+       </div>
+       <!--modal-->
+       <div class="modal border border-dark" id="myModal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border border-dark">
+                    <h2 class="modal-title"> MAC</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <center>
+                    <div class="modal-body border border-dark">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/EY/FA/ED/44069440/apple-a1708-refurbished-laptop.jpg" height="200" width="200" class="border border-dark">
+                        <p style="align-items:center;">
+                            <div class="amount d-flex">
+                                <h2>Rs 65,990/-</h2>
+                                <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                    <button class="btn btn-danger me-1" id="decrease">-</button>
+                                    <span id="quantity" class="fs-4">1</span>
+                                    <button class="btn btn-danger ms-1" id="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="position-relative">
+                                <div class="text-start">
+                                  <p>Processor:Intel i7 processor</p>
+                                  <p>RAM:8GB TO 32GB Internet: 5G</p>
+                                  <p>Battery Life: 8 to 10 hours </p>
+                                  <p>Screen size:14" FULL HD Screen</p>
+                                </div>
+                              </div>
+                             
+                            </div>
+                        </p>
+                    </div>
+                </center>
+                 <!--selctors-->
+                 <footer class="modal-footer">
+                  <button type="button" class="btn btn-info">ADD TO CART</button>
+                  <button type="button" class="btn btn-success">BUY NOW</button>
+                 </footer>
+            </div>
+        </div>
+      </div> 
+</div>
+</div>
+<!--4-->
+<div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+  <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61NPqJky+cL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" width="200" height="210">
+     <center>
+      <div class="card-header">ACER Rs99.990 0nly</div>
+     </center>
+     <div class="card-body text-center">
+      <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal3">View Product</button>
+     </div>
+     <!--modal-->
+     <div class="modal border border-dark" id="myModal3" tabindex="-1">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header border border-dark">
+                  <h2 class="modal-title"> ACER</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+              </div>
+              <center>
+                  <div class="modal-body border border-dark">
+                      <img src="https://m.media-amazon.com/images/I/61NPqJky+cL._AC_UF1000,1000_QL80_.jpg" height="200" width="200" class="border border-dark">
+                      <p style="align-items:center;">
+                          <div class="amount d-flex">
+                              <h2>Rs 65,990/-</h2>
+                              <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                  <button class="btn btn-danger me-1" id="decrease">-</button>
+                                  <span id="quantity" class="fs-4">1</span>
+                                  <button class="btn btn-danger ms-1" id="increase">+</button>
+                              </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="position-relative">
+                              <div class="text-start">
+                                <p>Processor:Intel i7 processor</p>
+                                <p>RAM:8GB TO 32GB Internet: 5G</p>
+                                <p>Battery Life: 8 to 10 hours </p>
+                                <p>Screen size:14" FULL HD Screen</p>
+                              </div>
+                            </div>
+                           
+                          </div>
+                      </p>
+                  </div>
+              </center>
+               <!--selctors-->
+               <footer class="modal-footer">
+                <button type="button" class="btn btn-info">ADD TO CART</button>
+                <button type="button" class="btn btn-success">BUY NOW</button>
+               </footer>
+          </div>
+      </div>
+    </div> 
+</div>
+</div>
+
+</section><br><br>
+<!--collection-2-->
+
+<section id="dress"class="bg bg-warning"> 
+  <div class="container-fluid">
+     <div class="row">
+          <center>
+              <h3 class="">TRENDING KURTAS!!</h3>
+          </center>
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+              <div class="card">
+                  <img src="https://www.urbanwardrobe.in/cdn/shop/products/WhatsApp_Image_2020-01-13_at_20.20.24.jpg?v=1578928477" class="card-img-top" height="210">
+                 <center>
+                  <div class="card-header">UMBERALLA KURTA Rs799</div>
+                 </center>
+                 <div class="card-body text-center">
+                  <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal001">View Product</button>
+                 </div>
+                 <!--modal-->
+                 <div class="modal border border-dark" id="myModal001" tabindex="-1">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header border border-dark">
+                              <h2 class="modal-title">UMBRELLA KURTI</h2>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                          </div>
+                          <center>
+                              <div class="modal-body border border-dark">
+                                  <img src="https://www.urbanwardrobe.in/cdn/shop/products/WhatsApp_Image_2020-01-13_at_20.20.24.jpg?v=1578928477" height="200" width="200" class="border border-dark">
+                                  <p style="align-items:center;">
+                                      <div class="amount d-flex">
+                                          <h2>Rs 799/-</h2>
+                                          <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                              <button class="btn btn-danger me-1" id="decrease">-</button>
+                                              <span id="quantity" class="fs-4">1</span>
+                                              <button class="btn btn-danger ms-1" id="increase">+</button>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex">
+                                        <div class="position-relative">
+                                          <div class="text-start">
+                                            <p>Silk cotton fabrics and printed</p>
+                                            <p>Full sleeve hand & round neck</p>
+                                            <p>Ordindary Washing & dry wash</p>
+                                            <p>Casual & college wear office use</p>
+                                          </div>
+                                        </div>
+                                       
+                                      </div>
+                                  </p>
+                              </div>
+                          </center>
+                           <!--selctors-->
+                           <footer class="modal-footer">
+                            <button type="button" class="btn btn-info">ADD TO CART</button>
+                            <button type="button" class="btn btn-success">BUY NOW</button>
+                           </footer>
+                      </div>
+                  </div>
+                 </div>
+
+              </div>
+          </div> 
+          <!--2-->
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEU9ZGSQ-DZWkjSPO9HWVC5KvkxKgi4mGqKf4_5YUr1Ann6YElGAjrCfYzRkFrRmj0Vj4&usqp=CAU" class="card-img-top" width="200" height="210">
+               <center>
+                <div class="card-header">KURTA Rs659 0nly</div>
+               </center>
+               <div class="card-body text-center">
+                <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal002">View Product</button>
+               </div>
+               <!--modal-->
+               <div class="modal border border-dark" id="myModal002" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border border-dark">
+                            <h2 class="modal-title"> KURTA</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <center>
+                            <div class="modal-body border border-dark">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEU9ZGSQ-DZWkjSPO9HWVC5KvkxKgi4mGqKf4_5YUr1Ann6YElGAjrCfYzRkFrRmj0Vj4&usqp=CAU" height="200" width="200" class="border border-dark">
+                                <p style="align-items:center;">
+                                    <div class="amount d-flex">
+                                        <h2>Rs 699/-</h2>
+                                        <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                            <button class="btn btn-danger me-1" id="decrease">-</button>
+                                            <span id="quantity" class="fs-4">1</span>
+                                            <button class="btn btn-danger ms-1" id="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                      <div class="position-relative">
+                                        <div class="text-start">
+                                          <p>Silk cotton fabrics and printed</p>
+                                          <p>Full sleeve hand & round neck</p>
+                                          <p>Ordindary Washing & dry wash</p>
+                                          <p>Casual & college wear office use</p>
+                                        </div>
+                                      </div>
+                                     
+                                    </div>
+                                </p>
+                            </div>
+                        </center>
+                         <!--selctors-->
+                         <footer class="modal-footer">
+                          <button type="button" class="btn btn-info">ADD TO CART</button>
+                          <button type="button" class="btn btn-success">BUY NOW</button>
+                         </footer>
+                    </div>
+                </div>
+              </div> 
+      </div>
+  </div>
+  <!--3-->
+  <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaa4MNxs1htNJfeB3oMTPoWiSuaz0rwresPOQdacQ3jus9nnHTMD2Vo3bKSLyX0CiDMY&usqp=CAU" class="card-img-top" width="200" height="210">
+       <center>
+        <div class="card-header">SHORT KURTI Rs599 0nly</div>
+       </center>
+       <div class="card-body text-center">
+        <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal003">View Product</button>
+       </div>
+       <!--modal-->
+       <div class="modal border border-dark" id="myModal003" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border border-dark">
+                    <h2 class="modal-title"> SHORT KURTA</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <center>
+                    <div class="modal-body border border-dark">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaa4MNxs1htNJfeB3oMTPoWiSuaz0rwresPOQdacQ3jus9nnHTMD2Vo3bKSLyX0CiDMY&usqp=CAU" height="200" width="200" class="border border-dark">
+                        <p style="align-items:center;">
+                            <div class="amount d-flex">
+                                <h2>Rs 690/-</h2>
+                                <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                    <button class="btn btn-danger me-1" id="decrease">-</button>
+                                    <span id="quantity" class="fs-4">1</span>
+                                    <button class="btn btn-danger ms-1" id="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="position-relative">
+                                <div class="text-start">
+                                  <p>Silk cotton fabrics and printed</p>
+                                  <p>Full sleeve hand & round neck</p>
+                                  <p>Ordindary Washing & dry wash</p>
+                                  <p>Casual & college wear office use</p>
+                                </div>
+                              </div>
+                             
+                            </div>
+                        </p>
+                    </div>
+                </center>
+                 <!--selctors-->
+                 <footer class="modal-footer">
+                  <button type="button" class="btn btn-info">ADD TO CART</button>
+                  <button type="button" class="btn btn-success">BUY NOW</button>
+                 </footer>
+            </div>
+        </div>
+      </div> 
+</div>
+</div>
+<!--4-->
+<div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+  <div class="card">
+      <img src="https://assets.ajio.com/medias/sys_master/root/20240924/Jqxo/66f2ecabf9b8ef490b631c90/-473Wx593H-700376469-multi-MODEL.jpg" class="card-img-top" width="210" height="200">
+     <center>
+      <div class="card-header">BLUE KURTI Rs899 0nly</div>
+     </center>
+     <div class="card-body text-center">
+      <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal004">View Product</button>
+     </div>
+     <!--modal-->
+     <div class="modal border border-dark" id="myModal004" tabindex="-1">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header border border-dark">
+                  <h2 class="modal-title"> BLUE KURTA</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+              </div>
+              <center>
+                  <div class="modal-body border border-dark">
+                      <img src="https://assets.ajio.com/medias/sys_master/root/20240924/Jqxo/66f2ecabf9b8ef490b631c90/-473Wx593H-700376469-multi-MODEL.jpg" height="200"  width="200"class="border border-dark">
+                      <p style="align-items:center;">
+                          <div class="amount d-flex">
+                              <h2>Rs 699/-</h2>
+                              <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                  <button class="btn btn-danger me-1" id="decrease">-</button>
+                                  <span id="quantity" class="fs-4">1</span>
+                                  <button class="btn btn-danger ms-1" id="increase">+</button>
+                              </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="position-relative">
+                              <div class="text-start">
+                                <p>Silk cotton fabrics and printed</p>
+                                <p>Full sleeve hand & round neck</p>
+                                <p>Ordindary Washing & dry wash</p>
+                                <p>Casual & college wear office use</p>
+                              </div>
+                            </div>
+                           
+                          </div>
+                      </p>
+                  </div>
+              </center>
+               <!--selctors-->
+               <footer class="modal-footer">
+                <button type="button" class="btn btn-info">ADD TO CART</button>
+                <button type="button" class="btn btn-success">BUY NOW</button>
+               </footer>
+          </div>
+      </div>
+    </div> 
+</div>
+</div>
+
+</section><br><br><br>
+<!--collection-------------3------------------------------------------>
+
+<section id="mobiles"class="bg bg-info"> 
+  <div class="container-fluid">
+     <div class="row">
+          <center>
+              <h3 class="">LATEST MOBILES!!</h3>
+          </center>
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+              <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/71s72QE+voL.jpg" class="card-img-top"width="200" height="210">
+                 <center>
+                  <div class="card-header">APPLE Rs80,990 0nly</div>
+                 </center>
+                 <div class="card-body text-center">
+                  <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal11">View Product</button>
+                 </div>
+                 <!--modal-->
+                 <div class="modal border border-dark" id="myModal11" tabindex="-1">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header border border-dark">
+                              <h2 class="modal-title">APPLE</h2>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                          </div>
+                          <center>
+                              <div class="modal-body border border-dark">
+                                  <img src="https://m.media-amazon.com/images/I/71s72QE+voL.jpg" height="200" width="200" class="border border-dark">
+                                  <p style="align-items:center;">
+                                      <div class="amount d-flex">
+                                          <h2>Rs 89990/-</h2>
+                                          <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                              <button class="btn btn-danger me-1" id="decrease">-</button>
+                                              <span id="quantity" class="fs-4">1</span>
+                                              <button class="btn btn-danger ms-1" id="increase">+</button>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex">
+                                        <div class="position-relative">
+                                          <div class="text-start">
+                                            <p>Uses UFS (Universal Flash Storage)</p>
+                                            <p>AM:8GB TO 32GB</p>
+                                            <p>Battery Life: 8 to 10 hours</p>
+                                            <p>Screen size:14" FULL HD</p>
+                                          </div>
+                                        </div>
+                                       
+                                      </div>
+                                  </p>
+                              </div>
+                          </center>
+                           <!--selctors-->
+                           <footer class="modal-footer">
+                            <button type="button" class="btn btn-info">ADD TO CART</button>
+                            <button type="button" class="btn btn-success">BUY NOW</button>
+                           </footer>
+                      </div>
+                  </div>
+                 </div>
+
+              </div>
+          </div> 
+          <!--2-->
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+            <div class="card">
+                <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202406/26/YvKZMzJCqAWgRT5r.png" class="card-img-top" width="20" height="210">
+               <center>
+                <div class="card-header">OPPO Rs23,999 0nly</div>
+               </center>
+               <div class="card-body text-center">
+                <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal12">View Product</button>
+               </div>
+               <!--modal-->
+               <div class="modal border border-dark" id="myModal12" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border border-dark">
+                            <h2 class="modal-title"> OPPO</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <center>
+                            <div class="modal-body border border-dark">
+                                <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202406/26/YvKZMzJCqAWgRT5r.png" height="200" width="200" class="border border-dark">
+                                <p style="align-items:center;">
+                                    <div class="amount d-flex">
+                                        <h2>Rs 23,990/-</h2>
+                                        <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                            <button class="btn btn-danger me-1" id="decrease">-</button>
+                                            <span id="quantity" class="fs-4">1</span>
+                                            <button class="btn btn-danger ms-1" id="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                      <div class="position-relative">
+                                        <div class="text-start">
+                                          <p>Uses UFS (Universal Flash Storage)</p>
+                                            <p>AM:8GB TO 32GB</p>
+                                            <p>Battery Life: 8 to 10 hours</p>
+                                            <p>Screen size:14" FULL HD</p>
+                                        </div>
+                                      </div>
+                                     
+                                    </div>
+                                </p>
+                            </div>
+                        </center>
+                         <!--selctors-->
+                         <footer class="modal-footer">
+                          <button type="button" class="btn btn-info">ADD TO CART</button>
+                          <button type="button" class="btn btn-success">BUY NOW</button>
+                         </footer>
+                    </div>
+                </div>
+              </div> 
+      </div>
+  </div>
+  <!--3-->
+  <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2nj-Lflwcrpghi4DTYBFCB9eJtca4HuHhQ&s" class="card-img-top" width="200" height="210">
+       <center>
+        <div class="card-header">REDMI Rs19,000 0nly/div>
+       </center>
+       <div class="card-body text-center">
+        <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal13">View Product</button>
+       </div>
+       <!--modal-->
+       <div class="modal border border-dark" id="myModal13" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border border-dark">
+                    <h2 class="modal-title"> REDMI</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <center>
+                    <div class="modal-body border border-dark">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2nj-Lflwcrpghi4DTYBFCB9eJtca4HuHhQ&s" height="200" width="200" class="border border-dark">
+                        <p style="align-items:center;">
+                            <div class="amount d-flex">
+                                <h2>Rs 19,999/-</h2>
+                                <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                    <button class="btn btn-danger me-1" id="decrease">-</button>
+                                    <span id="quantity" class="fs-4">1</span>
+                                    <button class="btn btn-danger ms-1" id="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="position-relative">
+                                <div class="text-start">
+                                  <p>Uses UFS (Universal Flash Storage)</p>
+                                  <p>AM:8GB TO 32GB</p>
+                                  <p>Battery Life: 8 to 10 hours</p>
+                                  <p>Screen size:14" FULL HD</p>
+                                </div>
+                              </div>
+                             
+                            </div>
+                        </p>
+                    </div>
+                </center>
+                 <!--selctors-->
+                 <footer class="modal-footer">
+                  <button type="button" class="btn btn-info">ADD TO CART</button>
+                  <button type="button" class="btn btn-success">BUY NOW</button>
+                 </footer>
+            </div>
+        </div>
+      </div> 
+</div>
+</div>
+<!--4-->
+<div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+  <div class="card">
+      <img src="https://tiimg.tistatic.com/fp/1/007/574/vivo-mobile-phone-7-38mm-ultra-smooth-body-170g-light-2-5d-adjusted-outline-for-a-great-hold-703.jpg" class="card-img-top" width="200" height="210">
+     <center>
+      <div class="card-header">VIVO Rs36,000 0nly</div>
+     </center>
+     <div class="card-body text-center">
+      <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal14">View Product</button>
+     </div>
+     <!--modal-->
+     <div class="modal border border-dark" id="myModal14" tabindex="-1">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header border border-dark">
+                  <h2 class="modal-title"> VIVO</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+              </div>
+              <center>
+                  <div class="modal-body border border-dark">
+                      <img src="https://tiimg.tistatic.com/fp/1/007/574/vivo-mobile-phone-7-38mm-ultra-smooth-body-170g-light-2-5d-adjusted-outline-for-a-great-hold-703.jpg" height="200" width="200" class="border border-dark">
+                      <p style="align-items:center;">
+                          <div class="amount d-flex">
+                              <h2>Rs 36,999/-</h2>
+                              <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                  <button class="btn btn-danger me-1" id="decrease">-</button>
+                                  <span id="quantity" class="fs-4">1</span>
+                                  <button class="btn btn-danger ms-1" id="increase">+</button>
+                              </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="position-relative">
+                              <div class="text-start">
+                                <p>Uses UFS (Universal Flash Storage)</p>
+                                <p>AM:8GB TO 32GB</p>
+                                <p>Battery Life: 8 to 10 hours</p>
+                                <p>Screen size:14" FULL HD</p>
+                              </div>
+                            </div>
+                           
+                          </div>
+                      </p>
+                  </div>
+              </center>
+               <!--selctors-->
+               <footer class="modal-footer">
+                <button type="button" class="btn btn-info">ADD TO CART</button>
+                <button type="button" class="btn btn-success">BUY NOW</button>
+               </footer>
+          </div>
+      </div>
+    </div> 
+</div>
+</div>
+
+</section><br><br><br>
+<!-------------collection---4-------------------------------->
+
+<section id="lovelybrand"class="bg bg-danger"> 
+  <div class="container-fluid">
+     <div class="row">
+          <center>
+              <h3 class="text-white" id="">LOVELY BRANDS!!</h3>
+          </center>
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+              <div class="card">
+                  <img src="https://images.jdmagicbox.com/quickquotes/images_main/swiss-beauty-lipstick-31-08-2023-33-272610647-4r44aki0.jpg" class="card-img-top"width="200" height="210">
+                 <center>
+                  <div class="card-header">LIP GLOSS Rs499 0nly</div>
+                 </center>
+                 <div class="card-body text-center">
+                  <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal21">View Product</button>
+                 </div>
+                 <!--modal-->
+                 <div class="modal border border-dark" id="myModal21" tabindex="-1">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header border border-dark">
+                              <h2 class="modal-title">LIP GLOSS</h2>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                          </div>
+                          <center>
+                              <div class="modal-body border border-dark">
+                                  <img src="https://images.jdmagicbox.com/quickquotes/images_main/swiss-beauty-lipstick-31-08-2023-33-272610647-4r44aki0.jpg" height="200" width="200" class="border border-dark">
+                                  <p style="align-items:center;">
+                                      <div class="amount d-flex">
+                                          <h2>Rs 499/-</h2>
+                                          <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                              <button class="btn btn-danger me-1" id="decrease">-</button>
+                                              <span id="quantity" class="fs-4">1</span>
+                                              <button class="btn btn-danger ms-1" id="increase">+</button>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex">
+                                        <div class="position-relative">
+                                          <div class="text-start">
+                                            <p>natural shine without color</p>
+                                            <p>Adds dimension to lips</p>
+                                            <p>includes oils, waxes and vitaminE.</p>
+                                            <p>Glitter for a sparkling effect.</p>
+                                          </div>
+                                        </div>
+                                       
+                                      </div>
+                                  </p>
+                              </div>
+                          </center>
+                           <!--selctors-->
+                           <footer class="modal-footer">
+                            <button type="button" class="btn btn-info">ADD TO CART</button>
+                            <button type="button" class="btn btn-success">BUY NOW</button>
+                           </footer>
+                      </div>
+                  </div>
+                 </div>
+
+              </div>
+          </div> 
+          <!--2-->
+          <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+            <div class="card">
+                <img src="https://golamarket.com/cdn/shop/files/FairShadeWithYellowUndertone-A001_4.jpg?v=1709025328&width=360" class="card-img-top" width="200" height="210">
+               <center>
+                <div class="card-header">COMPACT POWDER Rs799 0nly</div>
+               </center>
+               <div class="card-body text-center">
+                <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal22">View Product</button>
+               </div>
+               <!--modal-->
+               <div class="modal border border-dark" id="myModal22" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border border-dark">
+                            <h2 class="modal-title"> COMPACT POWDER</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <center>
+                            <div class="modal-body border border-dark">
+                                <img src="https://golamarket.com/cdn/shop/files/FairShadeWithYellowUndertone-A001_4.jpg?v=1709025328&width=360" height="200" width="200" class="border border-dark">
+                                <p style="align-items:center;">
+                                    <div class="amount d-flex">
+                                        <h2>Rs 799/-</h2>
+                                        <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                            <button class="btn btn-danger me-1" id="decrease">-</button>
+                                            <span id="quantity" class="fs-4">1</span>
+                                            <button class="btn btn-danger ms-1" id="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                      <div class="position-relative">
+                                        <div class="text-start">
+                                          <p>natural shine without color</p>
+                                          <p>Adds dimension to lips</p>
+                                          <p>includes oils, waxes and vitaminE.</p>
+                                          <p>Glitter for a sparkling effect.</p>
+                                        </div>
+                                      </div>
+                                     
+                                    </div>
+                                </p>
+                            </div>
+                        </center>
+                         <!--selctors-->
+                         <footer class="modal-footer">
+                          <button type="button" class="btn btn-info">ADD TO CART</button>
+                          <button type="button" class="btn btn-success">BUY NOW</button>
+                         </footer>
+                    </div>
+                </div>
+              </div> 
+      </div>
+  </div>
+  <!--3-->
+  <div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+    <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61nRLuPq3VL.jpg" class="card-img-top" width="200" height="210">
+       <center>
+        <div class="card-header">FOUNDATION Rs9990nly</div>
+       </center>
+       <div class="card-body text-center">
+        <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal23">View Product</button>
+       </div>
+       <!--modal-->
+       <div class="modal border border-dark" id="myModal23" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border border-dark">
+                    <h2 class="modal-title"> FOUNDATION</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <center>
+                    <div class="modal-body border border-dark">
+                        <img src="https://m.media-amazon.com/images/I/61nRLuPq3VL.jpg" height="200" width="200" class="border border-dark">
+                        <p style="align-items:center;">
+                            <div class="amount d-flex">
+                                <h2>Rs 999/-</h2>
+                                <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                    <button class="btn btn-danger me-1" id="decrease">-</button>
+                                    <span id="quantity" class="fs-4">1</span>
+                                    <button class="btn btn-danger ms-1" id="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="position-relative">
+                                <div class="text-start">
+                                  <p>natural shine without color</p>
+                                  <p>Adds dimension to lips</p>
+                                  <p>includes oils, waxes and vitaminE.</p>
+                                  <p>Glitter for a sparkling effect.</p>
+                                </div>
+                              </div>
+                             
+                            </div>
+                        </p>
+                    </div>
+                </center>
+                 <!--selctors-->
+                 <footer class="modal-footer">
+                  <button type="button" class="btn btn-info">ADD TO CART</button>
+                  <button type="button" class="btn btn-success">BUY NOW</button>
+                 </footer>
+            </div>
+        </div>
+      </div> 
+</div>
+</div>
+<!--4-->
+<div class="pb-5 col-lg-3  col-md-3  col-sm-12">
+  <div class="card">
+      <img src="https://www.beautyberry.co.in/cdn/shop/files/01_fe3d7cc6-bbb3-48cf-b7ec-aa353bd11515.jpg?v=1732261299&width=416" class="card-img-top" width="200" height="210">
+     <center>
+      <div class="card-header">KAJAL Rs$299 0nly</div>
+     </center>
+     <div class="card-body text-center">
+      <button class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myModal24">View Product</button>
+     </div>
+     <!--modal-->
+     <div class="modal border border-dark" id="myModal24" tabindex="-1">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header border border-dark">
+                  <h2 class="modal-title"> KAJAL</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+              </div>
+              <center>
+                  <div class="modal-body border border-dark">
+                      <img src="https://www.beautyberry.co.in/cdn/shop/files/01_fe3d7cc6-bbb3-48cf-b7ec-aa353bd11515.jpg?v=1732261299&width=416" height="200" width="200" class="border border-dark">
+                      <p style="align-items:center;">
+                          <div class="amount d-flex">
+                              <h2>Rs 299/-</h2>
+                              <div class="noproducts d-flex justify-content-center align-item-center position-absolute top-85 end-0">
+                                  <button class="btn btn-danger me-1" id="decrease">-</button>
+                                  <span id="quantity" class="fs-4">1</span>
+                                  <button class="btn btn-danger ms-1" id="increase">+</button>
+                              </div>
+                          </div>
+                          <div class="d-flex">
+                            <div class="position-relative">
+                              <div class="text-start">
+                                <p>natural shine without color</p>
+                                <p>Adds dimension to lips</p>
+                                <p>includes oils, waxes and vitaminE.</p>
+                                <p>Glitter for a sparkling effect.</p>
+                              </div>
+                            </div>
+                           
+                          </div>
+                      </p>
+                  </div>
+              </center>
+               <!--selctors-->
+               <footer class="modal-footer">
+                <button type="button" class="btn btn-info">ADD TO CART</button>
+                <button type="button" class="btn btn-success">BUY NOW</button>
+               </footer>
+          </div>
+      </div>
+    </div> 
+</div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
